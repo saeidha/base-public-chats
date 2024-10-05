@@ -1,0 +1,63 @@
+.nav {
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
+    display: flex; /* Use flexbox to layout the child elements */
+    align-items: center; /* Center child elements vertically */
+    justify-content: space-between; /* Space out the child elements */
+    padding: 0 20px; /* Add padding to the left and right */
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .nav_link {
+  
+    display: flex; /* Use flexbox to layout the links */
+    justify-content: flex-start; /* Center the links horizontally */
+    align-items: center; /* Center the links vertically */
+    flex: 1; /* Allow this element to grow to fill the available space */
+    list-style: none;
+    margin: 0;
+    padding-right: 20px;
+  
+  }
+  
+  .nav-text {
+    padding: 0 20px; /* Add padding to the left and right of each link */
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .button-container {
+    margin-left: auto; /* Push button to the right */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

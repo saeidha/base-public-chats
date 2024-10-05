@@ -1,0 +1,30 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure it appears above other elements */
+  }
+  
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border: 0.25rem solid currentColor;
+    border-right: 0.25rem solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
